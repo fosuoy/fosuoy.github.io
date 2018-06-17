@@ -171,7 +171,9 @@ In the above script, you can see some extra keys added to the result dictionary.
 They can be called from the registered variable, e.g.:
 ```
 - debug:
+{% raw %}
     msg: "{{module_output.list_length}}"
+{% endraw %}
   when:
     - module_output.changed == False
 ```
@@ -179,7 +181,7 @@ They can be called from the registered variable, e.g.:
 The above will print out the length of the list when it is not equivalent to
 100.
 
-Module like the above will really allow your teams to fully utilize the features
+Modules like the above will really allow your teams to fully utilize the features
 of ansible in order to reduce the size of your codebase and get your systems in
 a fully idempotent state when off the shelf configuration systems are not
 available.
