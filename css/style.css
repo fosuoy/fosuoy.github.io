@@ -47,9 +47,24 @@ ul.about {
 
 ul.posts { 
     margin: 20px auto 40px; 
-    font-size: 1.5em;
+    font-size: 1.4em;
 }
 
 ul.posts li {
     list-style: none;
+}
+
+div.info {
+    border: 1px solid;
+    margin: 10px 0px;
+    padding:15px 10px 15px 50px;
+    font-size: 1em;
+    line-height: 1.4em;
+    background: linear-gradient(to bottom, #B6DFF6 0%, #A8CFE6 100%);
+}
+
+h3.info {
+    font-size: 1.5em;
+    line-height: 1em;
+    color: #00529B;
 }
